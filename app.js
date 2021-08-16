@@ -6,9 +6,7 @@ const app = express();
 
 app.get("/", (req,res) => {
      res.write("server is ready")
-     res.write("\nserver is ready")
-     res.write("\nserver is ready")
-     res.write("\nserver is ready")
+     
      res.end();
 })
 
