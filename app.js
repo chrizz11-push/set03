@@ -1,6 +1,8 @@
 require("dotenv").config();
 const express = require("express");
+const cors = require("cors")
 const port = process.env.PORT || 8000;
+
 
 const app = express();
 app.use(express.json());
@@ -10,7 +12,7 @@ const studentData = [
     {id: 2, name:"Simi", course:"Full Stack"},
     {id: 3, name:"Wizkid", course:"Backend"},
     {id: 4, name:"Davido", course:"Full Stack"},
-    {id: 5, name:"Skales", course:"Frontend"}
+    {id: 5, name:"falz", course:"Frontend"}
 ]
 
 // default route
